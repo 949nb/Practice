@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="imgGallery" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>图片库</title>
+    <link rel="stylesheet" href="imgGallery.css">
+    <script src="./script/showPic.js"></script>
+</head>
+<body>
+    <h1>949图片库(imgGallery)</h1>
+    <ul>
+        <li>
+            <a href="./images/dog.jpg" onclick="showPic(this);return false;" title= "Japan Style dog!";>Japan Dog</a>
+        </li>
+        <li>
+            <a href="./images/man.jpg" onclick = "showPic(this);return false;" title="A soldiers face!";>Soldiers Man</a>
+        </li>
+        <li>
+            <a href="./images/spiderman.jpg" onclick = "showPic(this);return false;" title="Flying Spider Man!";>Spider Man</a>
+        </li>
+        <li>
+            <a href="./images/woman.jpg" onclick = "showPic(this);return false;" title="A beautiful gril";>Woman</a>
+        </li>
+    </ul>
+    <img id="placeholder" src="./images/japan.jpg" alt="placeholder">
+    <p id="description">choose the pic!</p>
+</body>
+</html>
