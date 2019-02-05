@@ -16,3 +16,4 @@ function countBodyChildren(){
 window.onload = countBodyChildren;
 
 //把<p>标签中的文字替换成<a>中的title。
+
