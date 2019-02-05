@@ -3,6 +3,9 @@ function showPic(whichpic) {
     var source = whichpic.getAttribute("href")
     var placeholder = document.getElementById("placeholder")
     placeholder.setAttribute("src",source);
+    var description = document.getElementById("description");
+    var text = whichpic.getAttribute("title");
+    description.firstChild.nodeValue = text;
 }
 //把body中的元素的个数打印到屏幕上
 function countBodyChildren(){
