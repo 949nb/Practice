@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.icon {
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+  body {
+    border: 1px solid;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .searchBig {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+  input {
+    height: 40px;
+    width: 500px;
+    border: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+    color: #878A8E;
+}
+  input:focus {
+    outline: none;
+    box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+  
